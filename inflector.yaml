@@ -1,0 +1,10 @@
+controllerPackage: com.temenos.samples.mybankingapi.controllers
+modelPackage: com.temenos.samples.mybankingapi.models
+swaggerUrl: ./src/main/swagger/swagger.yaml
+modelMappings:
+  Customer: com.temenos.samples.mybankingapi.models.Customer
+# loads all by default, or pick and choose
+entityProcessors:
+  - json
+#  - xml
+#  - yaml
